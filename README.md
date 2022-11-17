@@ -1,0 +1,2 @@
+# Azurevm
+vm
