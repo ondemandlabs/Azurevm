@@ -1,7 +1,7 @@
 jobs: 
 - deployment: VMDeploy
   displayName: web
-  environment:
+  environment: server
     name: vm
     resourceType: VirtualMachine
   strategy:
