@@ -2,7 +2,7 @@ jobs:
 - deployment: VMDeploy
   displayName: web
   environment: server
-    name: vm
+    name: server
     resourceType: VirtualMachine
   strategy:
       rolling:
