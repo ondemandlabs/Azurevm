@@ -18,3 +18,10 @@
           success:
             steps:
             - script: echo Notify! This is on success
+- task: AzureSpringCloud@0
+  inputs:
+    azureSubscription: 'Azure for Students (6e9408e7-a3a5-44d0-80f3-65b13b7b59a9)'
+    Action: 'Deploy'
+    AzureSpringCloud: 'Azurespring'
+    AppName: 'Application'
+    UseStagingDeployment: true
